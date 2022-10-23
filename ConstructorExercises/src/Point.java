@@ -30,10 +30,21 @@ public class Point {
         this.y = y;
     }
 
-    public double distance(){
-        double distanceFormula = this.x + this.y;
+    public double distance() {
 
-        return distanceFormula;
+        return distance(0, 0);
+
+    }
+
+    public double distance(int x, int y) {
+
+        return Math.sqrt((getX() - x) * (getX() - x) + (getY() - y) * (getY() - y));
+
+    }
+
+    public double distance(Point xy) {
+
+        return distance(xy.x, xy.y);
 
     }
 
