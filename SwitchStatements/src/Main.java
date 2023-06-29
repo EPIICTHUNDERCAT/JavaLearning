@@ -1,4 +1,3 @@
-
 public class Main {
 
 
@@ -11,9 +10,24 @@ public class Main {
 //            System.out.println("Value was 2");
 //        } else {
 //            System.out.println("was not 1 or 2");
-//        }
+////        }
+//String month = "APRIL";
+//        System.out.println(month.toLowerCase() +  " is in the " + DayOfWeek.getQuarter(month) + " quarter");
+//        System.out.println(" the Char is " + DayOfWeek.getChar('A') + " = ");
+//        System.out.println(" the Char is " + DayOfWeek.getChar('B') + " = ");
+//        System.out.println(" the Char is " + DayOfWeek.getChar('G') + " = ");
 
 
+
+        DayOfWeek.printWeekDay(0);
+        DayOfWeek.printWeekDay(1);
+        DayOfWeek.printWeekDay(2);
+        DayOfWeek.printWeekDay(3);
+        DayOfWeek.printWeekDay(4);
+        DayOfWeek.printWeekDay(5);
+        DayOfWeek.printWeekDay(6);
+        DayOfWeek.printWeekDay(7);
+//
         DayOfWeek.printDayOfTheWeek(0);
         DayOfWeek.printDayOfTheWeek(1);
         DayOfWeek.printDayOfTheWeek(2);
@@ -21,64 +35,73 @@ public class Main {
         DayOfWeek.printDayOfTheWeek(4);
         DayOfWeek.printDayOfTheWeek(5);
         DayOfWeek.printDayOfTheWeek(6);
-        DayOfWeek.printDayOfTheWeek(43);
+        DayOfWeek.printDayOfTheWeek(7);
+//
+//        DayOfWeek.printDayOfTheWeek(0);
+//        DayOfWeek.printDayOfTheWeek(1);
+//        DayOfWeek.printDayOfTheWeek(2);
+//        DayOfWeek.printDayOfTheWeek(3);
+//        DayOfWeek.printDayOfTheWeek(4);
+//        DayOfWeek.printDayOfTheWeek(5);
+//        DayOfWeek.printDayOfTheWeek(6);
+//        DayOfWeek.printDayOfTheWeek(43);
 
 
-        char switchCharValue = 'D';
-
-        switch (switchCharValue) {
-            case 'A':
-                System.out.println("Char was  A");
-                break;
-            case 'B':
-                System.out.println("Char was  B");
-                break;
-            case 'C':
-                System.out.println("Char was  C");
-                break;
-
-            case 'D':
-                System.out.println("Char was  D");
-                break;
-
-            case 'E':
-                System.out.println("Char was  E");
-                break;
-
-            default:
-                System.out.println("Character was NOT found but it was: " + switchCharValue);
-                break;
-
-
-        }
+//        char switchCharValue = 'D';
+//
+//        switch (switchCharValue) {
+//            case 'A':
+//                System.out.println("Char was  A");
+//                break;
+//            case 'B':
+//                System.out.println("Char was  B");
+//                break;
+//            case 'C':
+//                System.out.println("Char was  C");
+//                break;
+//
+//            case 'D':
+//                System.out.println("Char was  D");
+//                break;
+//
+//            case 'E':
+//                System.out.println("Char was  E");
+//                break;
+//
+//            default:
+//                System.out.println("Character was NOT found but it was: " + switchCharValue);
+//                break;
 
 
-        String month = "JUNE";
-        switch (month.toLowerCase()) {
-            case "january":
-                System.out.println("Jan");
-                break;
-            case "june":
-                System.out.println("Jun");
-                break;
-            case "april":
-                System.out.println("Apr");
-                break;
+    }
 
-            case "may":
-                System.out.println("May");
-                break;
-
-            case "october":
-                System.out.println("Oct");
-                break;
-
-            default:
-                System.out.println("Character was NOT found but it was: " + month);
-                break;
-
-
-        }
+//
+//        String month1 = "JUNE";
+//        switch (month1.toLowerCase()) {
+//            case "january":
+//                System.out.println("Jan");
+//                break;
+//            case "june":
+//                System.out.println("Jun");
+//                break;
+//            case "april":
+//                System.out.println("Apr");
+//                break;
+//
+//            case "may":
+//                System.out.println("May");
+//                break;
+//
+//            case "october":
+//                System.out.println("Oct");
+//                break;
+//
+//            default:
+//                System.out.println("Character was NOT found but it was: " + month1);
+//                break;
+//
+//
+//        }
 
 
 //
@@ -103,9 +126,6 @@ public class Main {
 //
 //
 //        }
-
-
-    }
 
 
     public static boolean halvesAreAlike(String s) {
